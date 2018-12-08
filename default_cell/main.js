@@ -26,8 +26,8 @@ pd.options.display.max_columns = 20
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = 'all'
 `);
-Jupyter.notebook.select_prev;
-Jupyter.notebook.execute_cell_and_select_next;
+Jupyter.notebook.select_prev();
+Jupyter.notebook.execute_cell_and_select_below();
       };
       // Button to add default cell
       var defaultCellButton = function () {
@@ -45,7 +45,7 @@ Jupyter.notebook.execute_cell_and_select_next;
         if (Jupyter.notebook.get_cells().length===1){
             add_cell();
         }
-        defaultCell_button();
+        defaultCellButton();
     }
     return {
         load_ipython_extension: load_ipython_extension
