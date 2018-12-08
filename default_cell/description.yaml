@@ -4,7 +4,7 @@ Name: Default cell
 Main: main.js
 Link: README.md
 Description: |
-  Add and run a default cell at the top of each new notebook. Also adds a button so insert and run the default cell above the current cell. Helpful for common imports.$
+  Adds and runs a default cell at the top of each new notebook. Also adds a button to insert and run the default cell above the current cell. Helpful for commonly used imports.
 
 Parameters:
 - none
